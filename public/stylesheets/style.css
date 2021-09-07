@@ -1,0 +1,37 @@
+html, body {
+  min-height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(105, 102, 133);
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  height: 100vh;
+}
+
+h1 {
+  float: top;
+}
+
+#content-div {
+  min-height: 25%;
+  min-height: 25vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron {
+  box-shadow: 0px 10px 10px black;
+  min-height: 50%;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 75vh;
+}
+
+.btn-primary {
+  margin-top: 15px;
+}

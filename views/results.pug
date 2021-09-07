@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h1= title
+  p Bank Value is #{amount}
+
+  p Your item: #{itemName}
+  p Item price: #{itemPrice}
+
+  if afford == true
+    p(style="color:green;") Price Difference: #{priceDiff} GP
+  
+  else
+    p(style="color:red;") Price Difference: #{priceDiff} GP
+  
+  button(class="btn btn-primary" id="redirectButton" onclick="move()") Home
+
+  script.
+    function move() {
+      window.location.href = '/';
+    }
